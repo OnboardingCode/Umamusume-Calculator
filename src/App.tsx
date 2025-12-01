@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router";
 import Navbar from "./components/Navbar";
 import Home from "./routes/Home";
 import CharactersCard from "./routes/CharactersCard";
+import CharactersInfo from "./routes/CharactersInfo";
 
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/characters" element={<CharactersCard />} />
+          {/* Ruta para mostrar información de personaje específico usando query parameter */}
+          <Route path="/character" element={<CharactersInfo />} />
         </Routes>
       </div>
     </>
