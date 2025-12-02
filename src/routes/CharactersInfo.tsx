@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router'; 
 //llamado de los datos de la API
-import { getCharacterData, updateCharacterDOM } from '../services/api';
+import { getCharacterData, updateCharacterDOM } from '../services/info_api';
 
 
 
@@ -49,7 +49,14 @@ const CharactersInfo = () => {
           <h2 id="enUmaDiplayName" className="text-lg mb-2 text-blue-600"></h2>
           <h2 id="jpUmaDiplayName" className="text-lg mb-4 text-green-600"></h2>
           <h2 id= "UmaFacts" className='text-lg mb-6 text-black-600'></h2>
+
+          //TODO IMG div
           <img id="umaImg" className="max-w-xs rounded-lg shadow-md" alt="Uma Character" />
+
+          <img id='umaOutfit_1'  width="100" height="100" loading="lazy" image-rendering="crisp-edges"></img>
+          <img id='umaOutfit_2' width="100" height="100" loading="lazy" image-rendering="crisp-edges"></img>
+          <img id='umaOutfit_3' width="100" height="100" loading="lazy" image-rendering="crisp-edges"></img>
+
         </div>
       </div>
     </div>

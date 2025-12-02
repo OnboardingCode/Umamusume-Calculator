@@ -19,8 +19,16 @@ export const getCharacterData = (umaId: string) => {
 
 //TODO El valor DATA da error porque el parametro de DATA queda como ANY, el cual no puede quedar asi, para solucionar el error, se tiene que crear el tipado de datos
 
+//Interface funciona en Typescript para especificar que propiedades debe de tener los objetos, en este caso, que tipo de dato
+interface CharacterData {
+  name_en: string;
+  name_jp: string;
+  sns_icon: string;
+  ears_fact: string
+}
+
 // Función para actualizar el DOM con los datos del personaje
-export const updateCharacterDOM = (data) => {
+export const updateCharacterDOM = (data: CharacterData) => {
   // Obtener elementos del DOM
   const displayEnName = document.getElementById("enUmaDiplayName");
   const displayJpName = document.getElementById("jpUmaDiplayName");
