@@ -16,6 +16,9 @@ export const getCharacterData = (umaId: string) => {
     });
 };
 
+
+//TODO El valor DATA da error porque el parametro de DATA queda como ANY, el cual no puede quedar asi, para solucionar el error, se tiene que crear el tipado de datos
+
 // Función para actualizar el DOM con los datos del personaje
 export const updateCharacterDOM = (data) => {
   // Obtener elementos del DOM
@@ -24,13 +27,17 @@ export const updateCharacterDOM = (data) => {
   const frontImg = document.getElementById("umaImg");
   const UmaFacts = document.getElementById("UmaFacts")
 
+
   // Extraer datos del response
   const enName = data.name_en;
   const jpName = data.name_jp;
   const img_1 = data.sns_icon;
   const facts_1 = data.ears_fact;
 
+  
+
   // Actualizar el DOM con los datos
+  //Esto es una practica de programacion defenciva, el cual el IF se encarga de verificar que el valor retornado no sea NULL para poder evitar errores
   if (displayEnName) displayEnName.textContent = `EN Name: ${enName}`;
   if (displayJpName) displayJpName.textContent = `JP Name: ${jpName}`;
   if(UmaFacts) UmaFacts.textContent = `Facts: ${facts_1}`;

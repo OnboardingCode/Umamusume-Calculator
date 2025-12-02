@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router';
 //llamado de los datos de la API
 import { getCharacterData, updateCharacterDOM } from '../services/api';
 
+
+
 const CharactersInfo = () => {
   // Hook para navegación de vuelta
   const navigate = useNavigate();
