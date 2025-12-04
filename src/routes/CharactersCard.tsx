@@ -26,7 +26,7 @@ const CharactersCard = () => {
         <h1 className='text-6xl font-bold text-black text-center mt-20'>Characters</h1>
         
         {/* Contenedor de botones para seleccionar personajes */}
-        <div className='flex gap-6 mt-8'>
+        <div className='flex gap-4 mt-8 grid-cols-6 grid-rows-27 '>
 
           <button 
             onClick={uma1}
@@ -48,6 +48,8 @@ const CharactersCard = () => {
           >
             Agnes Digital (game ID: 1019)
           </button>
+
+          
         </div>
       </div>
     </div>
