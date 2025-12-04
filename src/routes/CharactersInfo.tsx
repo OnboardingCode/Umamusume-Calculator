@@ -67,8 +67,8 @@ const CharactersInfo = () => {
               <img id='umaOutfit_2' className="rounded-lg shadow-md" width="150" height="150" loading="lazy" style={{ imageRendering: "crisp-edges" }}/>
               <img id='umaOutfit_3' className="rounded-lg shadow-md" width="150" height="150" loading="lazy" style={{ imageRendering: "crisp-edges" }}/>
             </div>
-            <br /> <h3>Uniform</h3>
-             <h3>Uniform</h3>
+             
+             
           </div>
 
         </div>
