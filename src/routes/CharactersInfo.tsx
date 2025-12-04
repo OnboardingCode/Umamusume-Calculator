@@ -44,15 +44,15 @@ const CharactersInfo = () => {
         <button
           onClick={goBack}
           className="mb-6 mt-9 bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded transition-colors ">
-          Volver a Personajes</button>
+          Back to characters</button>
 
         {/* Información del personaje */}
         <div className="bg-white rounded-lg shadow-lg p-8">
           <h1 className="text-4xl font-bold text-gray-800 mb-6">
-            Información del Personaje
+            Uma Profile
           </h1>
           
-          <h1 className="text-2xl font-semibold mb-4">Uma:</h1>
+          <h1 className="text-2xl font-semibold mb-4">General Information:</h1>
           <h2 id="enUmaDiplayName" className="text-lg mb-2 text-blue-600"></h2>
           <h2 id="jpUmaDiplayName" className="text-lg mb-4 text-green-600"></h2>
           <h2 id= "UmaFacts" className='text-lg mb-6 text-black-600'></h2>
