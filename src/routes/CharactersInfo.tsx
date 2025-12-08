@@ -53,8 +53,8 @@ const CharactersInfo = () => {
           </h1>
           
           <h1 className="text-2xl font-semibold mb-4">General Information:</h1>
-          <h2 id="enUmaDiplayName" className="text-lg mb-2 text-blue-600"></h2>
-          <h2 id="jpUmaDiplayName" className="text-lg mb-4 text-green-600"></h2>
+          <h2 id="enUmaDiplayName" className="text-lg mb-2 text-black-600"></h2>
+          <h2 id="jpUmaDiplayName" className="text-lg mb-4 text-black-600"></h2>
           <h2 id= "UmaFacts" className='text-lg mb-6 text-black-600'></h2>
 
           <img id="umaImg" className="max-w-xs rounded-lg shadow-md" alt="Uma Character" />
