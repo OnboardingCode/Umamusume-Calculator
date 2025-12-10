@@ -326,42 +326,16 @@ Potential features for future development:
 3. **Images not loading**: Verify the character ID is valid and the API is accessible
 4. **TypeScript errors**: Run `npm run lint` to check for type issues
 
-## Contributing
-
-Contributions are welcome! Please follow these guidelines:
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes with clear messages
-4. Push to your branch
-5. Open a Pull Request
 
 ## License
 
 This project is for educational purposes. Umamusume is a trademark of Cygames, Inc.
 
----
-
-**Last Updated**: December 2025  
-**Version**: 1.0.0  
-**Branch**: global_maintenance
-
-- TypeScript strict mode enabled
-- React hooks linting
-- Consistent code formatting standards
 
 
 ## Future Enhancements
 
 - TBA
 
-## Notes
-
-- The project follows a modular architecture for scalability and maintainability
-- Components are organized by function (routes, components, services)
-- Defensive programming practices implemented (null checks, error handling)
-- API calls include proper error handling and logging
-
----
 
 **Developed by Codex Software**
