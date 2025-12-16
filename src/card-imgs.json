@@ -1,0 +1,541 @@
+[
+  {
+    "id": 1001,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1001.png"
+  },
+
+  {
+    "id": 1002,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1002.png"
+  },
+  {
+    "id": 1003,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1003.png"
+  },
+  {
+    "id": 1004,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1004.png"
+  },
+  {
+    "id": 1005,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1005.png"
+  },
+  {
+    "id": 1006,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1006.png"
+  },
+  {
+    "id": 1007,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1007.png"
+  },
+  {
+    "id": 1008,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1008.png"
+  },
+  {
+    "id": 1009,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1009.png"
+  },
+  {
+    "id": 1010,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1010.png"
+  },
+  {
+    "id": 1011,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1011.png"
+  },
+
+  {
+    "id": 1012,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1012.png"
+  },
+  {
+    "id": 1013,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1013.png"
+  },
+  {
+    "id": 1014,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1014.png"
+  },
+  {
+    "id": 1015,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1015.png"
+  },
+  {
+    "id": 1016,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1016.png"
+  },
+  {
+    "id": 1017,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1017.png"
+  },
+  {
+    "id": 1018,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1018.png"
+  },
+  {
+    "id": 1019,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1019.png"
+  },
+  {
+    "id": 1020,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1020.png"
+  },
+
+
+
+
+   {
+    "id": 1021,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1021.png"
+  },
+
+  {
+    "id": 1022,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1022.png"
+  },
+  {
+    "id": 1023,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1023.png"
+  },
+  {
+    "id": 1024,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1024.png"
+  },
+  {
+    "id": 1025,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1025.png"
+  },
+  {
+    "id": 1026,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1026.png"
+  },
+  {
+    "id": 1027,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1027.png"
+  },
+  {
+    "id": 1028,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1028.png"
+  },
+  {
+    "id": 1029,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1029.png"
+  },
+  {
+    "id": 1030,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1030.png"
+  },
+  {
+    "id": 1031,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1031.png"
+  },
+
+  {
+    "id": 1032,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1032.png"
+  },
+  {
+    "id": 1033,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1033.png"
+  },
+  {
+    "id": 1034,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1034.png"
+  },
+  {
+    "id": 1035,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1035.png"
+  },
+  {
+    "id": 1036,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1036.png"
+  },
+  {
+    "id": 1037,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1037.png"
+  },
+  {
+    "id": 1038,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1038.png"
+  },
+  {
+    "id": 1039,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1039.png"
+  },
+  {
+    "id": 1040,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1040.png"
+  },
+
+  {
+    "id": 1041,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1041.png"
+  },
+
+  {
+    "id": 1042,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1042.png"
+  },
+  {
+    "id": 1043,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1043.png"
+  },
+  {
+    "id": 1044,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1044.png"
+  },
+  {
+    "id": 1045,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1045.png"
+  },
+  {
+    "id": 1046,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1046.png"
+  },
+  {
+    "id": 1047,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1047.png"
+  },
+  {
+    "id": 1048,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1048.png"
+  },
+  {
+    "id": 1049,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1049.png"
+  },
+  {
+    "id": 1050,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1050.png"
+  },
+  {
+    "id": 1051,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1051.png"
+  },
+
+  {
+    "id": 1052,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1052.png"
+  },
+  {
+    "id": 1053,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1053.png"
+  },
+  {
+    "id": 1054,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1054.png"
+  },
+  {
+    "id": 1055,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1055.png"
+  },
+  {
+    "id": 1056,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1056.png"
+  },
+  {
+    "id": 1057,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1057.png"
+  },
+  {
+    "id": 1058,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1058.png"
+  },
+  {
+    "id": 1059,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1059.png"
+  },
+  {
+    "id": 1060,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1060.png"
+  },
+
+
+
+
+   {
+    "id": 1061,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1061.png"
+  },
+
+  {
+    "id": 1062,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1062.png"
+  },
+  {
+    "id": 1063,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1063.png"
+  },
+  {
+    "id": 1064,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1064.png"
+  },
+  {
+    "id": 1065,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1065.png"
+  },
+  {
+    "id": 1066,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1066.png"
+  },
+  {
+    "id": 1067,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1067.png"
+  },
+  {
+    "id": 1068,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1068.png"
+  },
+  {
+    "id": 1069,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1069.png"
+  },
+  {
+    "id": 1070,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1070.png"
+  },
+  {
+    "id": 1071,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1071.png"
+  },
+
+  {
+    "id": 1072,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1072.png"
+  },
+  {
+    "id": 1073,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1073.png"
+  },
+  {
+    "id": 1074,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1074.png"
+  },
+  {
+    "id": 1075,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1075.png"
+  },
+  {
+    "id": 1076,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1076.png"
+  },
+  {
+    "id": 1077,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1077.png"
+  },
+  {
+    "id": 1078,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1078.png"
+  },
+  {
+    "id": 1079,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1079.png"
+  },
+  {
+    "id": 1080,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1080.png"
+  },
+   {
+    "id": 1081,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1081.png"
+  },
+
+  {
+    "id": 1082,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1082.png"
+  },
+  {
+    "id": 1083,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1083.png"
+  },
+  {
+    "id": 1084,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1084.png"
+  },
+  {
+    "id": 1085,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1085.png"
+  },
+  {
+    "id": 1086,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1086.png"
+  },
+  {
+    "id": 1087,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1087.png"
+  },
+  {
+    "id": 1088,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1088.png"
+  },
+  {
+    "id": 1089,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1089.png"
+  },
+
+  {
+    "id": 1090,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1090.png"
+  },
+
+  {
+    "id": 1091,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1091.png"
+  },
+  {
+    "id": 1092,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1092.png"
+  },
+  {
+    "id": 1093,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1093.png"
+  },
+  {
+    "id": 1094,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1094.png"
+  },
+  {
+    "id": 1095,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1095.png"
+  },
+  {
+    "id": 1096,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1096.png"
+  },
+  {
+    "id": 1097,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1097.png"
+  },
+  {
+    "id": 1098,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1098.png"
+  },
+  {
+    "id": 1099,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1099.png"
+  },
+  {
+    "id": 1100,
+    "caption": "Special Week Banner",
+    "banner": "public/outfits/card-1100.png"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "id": 1032,
+    "caption": "Tachyon Banner",
+    "banner": "public/outfits/card-1032.png"
+  }
+]
