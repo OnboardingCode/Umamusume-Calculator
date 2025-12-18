@@ -465,7 +465,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Silence Suzuka</span>
           </button>
 
           <button 
