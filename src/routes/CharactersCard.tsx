@@ -1,441 +1,26 @@
-import { useNavigate } from 'react-router';
 import cardImages from '../card-imgs.json';
-
-
-
-
-
-
+import { useUmaNavigation } from '../services/character_navigation';
 //NOTA: Los IDs de las Umas, son los game_id en la API
 
 const CharactersCard = () => {
   // Hook para navegación programática entre rutas
-  const navigate = useNavigate();
+  
+  const {
+    uma1, uma2, uma3, uma4, uma5, uma6, uma7, uma8, uma9, uma10,
+    uma11, uma12, uma13, uma14, uma15, uma16, uma17, uma18, uma19, uma20,
+    uma21, uma22, uma23, uma24, uma25, uma26, uma27, uma28, uma29, uma30,
+    uma31, uma32, uma33, uma34, uma35, uma36, uma37, uma38, uma39, uma40,
+    uma41, uma42, uma43, uma44, uma45, uma46, uma47, uma48, uma49, uma50,
+    uma51, uma52, uma53, uma54, uma55, uma56, uma57, uma58, uma59, uma60,
+    uma61, uma62, uma63, uma64, uma65, uma66, uma67, uma68, uma69, uma70,
+    uma71, uma72, uma73, uma74, uma75, uma76, uma77, uma78, uma79, uma80,
+    uma81, uma82, uma83, uma84, uma85, uma86, uma87, uma88, uma89, uma90,
+    uma91, uma92, uma93, uma94, uma95, uma96, uma97, uma98, uma99, uma100
 
+  } = useUmaNavigation();
 
   // Función para manejar la navegación al personaje A (ID: 10372)
-  const uma1 = () => {
-    navigate('/character?id=1001');
-  };
-
-  const uma2 = () => {
-    navigate('/character?id=1002');
-  };
-
-  const uma3 = () => {
-    navigate('/character?id=1003')
-  }
-
-  const uma4 = () => {
-    navigate('/character?id=1004')
-  }
-
-   const uma5 = () => {
-    navigate('/character?id=1005');
-  };
-
-
-  const uma6 = () => {
-    navigate('/character?id=1006');
-  };
-
-  const uma7 = () => {
-    navigate('/character?id=1007')
-  }
-
-  const uma8 = () => {
-    navigate('/character?id=1008')
-  }
-
-   const uma9 = () => {
-    navigate('/character?id=1009');
-  };
-
-
-  const uma10 = () => {
-    navigate('/character?id=1010');
-  };
-
-  const uma11 = () => {
-    navigate('/character?id=1011')
-  }
-
-  const uma12 = () => {
-    navigate('/character?id=1012')
-  }
-
-   const uma13 = () => {
-    navigate('/character?id=1013');
-  };
-
-  // Función para manejar la navegación al personaje B (ID: 1032)
-  const uma14 = () => {
-    navigate('/character?id=1014');
-  };
-
-  const uma15 = () => {
-    navigate('/character?id=1015')
-  }
-
-  const uma16 = () => {
-    navigate('/character?id=1016')
-  }
-
-   const uma17 = () => {
-    navigate('/character?id=1017');
-  };
-
-
-  const uma18 = () => {
-    navigate('/character?id=1018');
-  };
-
-  const uma19 = () => {
-    navigate('/character?id=1019')
-  }
-
-  const uma20 = () => {
-    navigate('/character?id=1020')
-  }
-
-   const uma21 = () => {
-    navigate('/character?id=1021');
-  };
-
-
-  const uma22 = () => {
-    navigate('/character?id=1022');
-  };
-
-  const uma23 = () => {
-    navigate('/character?id=1023')
-  }
-
-  const uma24 = () => {
-    navigate('/character?id=1024')
-  }
-
-   const uma25 = () => {
-    navigate('/character?id=1025');
-  };
-
-
-  const uma26 = () => {
-    navigate('/character?id=1026');
-  };
-
-  const uma27 = () => {
-    navigate('/character?id=1027')
-  }
-
-  const uma28 = () => {
-    navigate('/character?id=1028')
-  }
-  const uma29 = () => {
-    navigate('/character?id=1029')
-  }
-
-  const uma30 = () => {
-    navigate('/character?id=1030')
-  }
-
-
-
-   const uma31 = () => {
-    navigate('/character?id=1031');
-  };
-
-
-  const uma32 = () => {
-    navigate('/character?id=1032');
-  };
-
-  const uma33 = () => {
-    navigate('/character?id=1033')
-  }
-
-  const uma34 = () => {
-    navigate('/character?id=1034')
-  }
-
-   const uma35 = () => {
-    navigate('/character?id=1035');
-  };
-
-  const uma36 = () => {
-    navigate('/character?id=1036');
-  };
-
-  const uma37 = () => {
-    navigate('/character?id=1037')
-  }
-
-  const uma38 = () => {
-    navigate('/character?id=1038')
-  }
-  const uma39 = () => {
-    navigate('/character?id=1039')
-  }
-
-  const uma40 = () => {
-    navigate('/character?id=1040')
-  }
-
-
-
-  const uma41 = () => {
-    navigate('/character?id=1030')
-  }
-
-
-  const uma42 = () => {
-    navigate('/character?id=1032');
-  };
-
-  const uma43 = () => {
-    navigate('/character?id=1033')
-  }
-
-  const uma44 = () => {
-    navigate('/character?id=1034')
-  }
-
-   const uma45 = () => {
-    navigate('/character?id=1035');
-  };
-
-  const uma46 = () => {
-    navigate('/character?id=1036');
-  };
-
-  const uma47 = () => {
-    navigate('/character?id=1037')
-  }
-
-  const uma48 = () => {
-    navigate('/character?id=1038')
-  }
-  const uma49 = () => {
-    navigate('/character?id=1039')
-  }
-
-
-
-
-   const uma50 = () => {
-    navigate('/character?id=1050')
-  }
-
-   const uma51 = () => {
-    navigate('/character?id=1051');
-  };
-
-
-  const uma52 = () => {
-    navigate('/character?id=1052');
-  };
-
-  const uma53 = () => {
-    navigate('/character?id=1053')
-  }
-
-  const uma54 = () => {
-    navigate('/character?id=1054')
-  }
-
-   const uma55 = () => {
-    navigate('/character?id=1055');
-  };
-
-
-  const uma56 = () => {
-    navigate('/character?id=1056');
-  };
-
-  const uma57 = () => {
-    navigate('/character?id=1057')
-  }
-
-  const uma58 = () => {
-    navigate('/character?id=1058')
-  }
-  const uma59 = () => {
-    navigate('/character?id=1059')
-  }
-
-  const uma60 = () => {
-    navigate('/character?id=1060')
-  }
-
-
-
-   const uma61 = () => {
-    navigate('/character?id=1061');
-  };
-
-
-  const uma62 = () => {
-    navigate('/character?id=1062');
-  };
-
-  const uma63 = () => {
-    navigate('/character?id=1063')
-  }
-
-  const uma64 = () => {
-    navigate('/character?id=1064')
-  }
-
-   const uma65 = () => {
-    navigate('/character?id=1065');
-  };
-
-  const uma66 = () => {
-    navigate('/character?id=1066');
-  };
-
-  const uma67 = () => {
-    navigate('/character?id=1067')
-  }
-
-  const uma68 = () => {
-    navigate('/character?id=1068')
-  }
-  const uma69 = () => {
-    navigate('/character?id=1069')
-  }
-
-  const uma70 = () => {
-    navigate('/character?id=1070')
-  }
-
-  const uma71 = () => {
-    navigate('/character?id=1071');
-  };
-
-  const uma72 = () => {
-    navigate('/character?id=1072');
-  };
-
-  const uma73 = () => {
-    navigate('/character?id=1073')
-  }
-
-  const uma74 = () => {
-    navigate('/character?id=1074')
-  }
-
-   const uma75 = () => {
-    navigate('/character?id=1075');
-  };
-
-
-  const uma76 = () => {
-    navigate('/character?id=1076');
-  };
-
-  const uma77 = () => {
-    navigate('/character?id=1077')
-  }
-
-  const uma78 = () => {
-    navigate('/character?id=1078')
-  }
-
-   const uma79 = () => {
-    navigate('/character?id=1079');
-  };
-
-
-  const uma80 = () => {
-    navigate('/character?id=1080');
-  };
-  const uma81 = () => {
-    navigate('/character?id=1081');
-  };
-
-  const uma82 = () => {
-    navigate('/character?id=1082');
-  };
-
-  const uma83 = () => {
-    navigate('/character?id=1083')
-  }
-
-  const uma84 = () => {
-    navigate('/character?id=1084')
-  }
-
-   const uma85 = () => {
-    navigate('/character?id=1085');
-  };
-
-
-  const uma86 = () => {
-    navigate('/character?id=1086');
-  };
-
-  const uma87 = () => {
-    navigate('/character?id=1087')
-  }
-
-  const uma88 = () => {
-    navigate('/character?id=1088')
-  }
-
-   const uma89 = () => {
-    navigate('/character?id=1089');
-  };
-
-
-  const uma90 = () => {
-    navigate('/character?id=1090');
-  };
-
-  const uma91 = () => {
-    navigate('/character?id=1091');
-  };
-
-  const uma92 = () => {
-    navigate('/character?id=1092');
-  };
-
-  const uma93 = () => {
-    navigate('/character?id=1093')
-  }
-
-  const uma94 = () => {
-    navigate('/character?id=1094')
-  }
-
-   const uma95 = () => {
-    navigate('/character?id=1095');
-  };
-
-
-  const uma96 = () => {
-    navigate('/character?id=1096');
-  };
-
-  const uma97 = () => {
-    navigate('/character?id=1097')
-  }
-
-  const uma98 = () => {
-    navigate('/character?id=1098')
-  }
-
-   const uma99 = () => {
-    navigate('/character?id=1099');
-  };
-
-
-  const uma100 = () => {
-    navigate('/character?id=1100');
-  };
-
-
-
+  
   return (
     <div className='min-h-screen bg-slate-50 w-full flex items-center justify-center'>
       <div className='flex flex-col items-center max-w-6xl gap-8'>
@@ -687,9 +272,6 @@ const CharactersCard = () => {
 
 
 
-
-
-
           <button 
             onClick={uma21}
             className='relative w-[181px] h-[238px] rounded-lg overflow-hidden transition-transform duration-300 hover:scale-105'
@@ -933,13 +515,6 @@ const CharactersCard = () => {
 
 
 
-
-
-
-
-
-
-
           <button 
             onClick={uma41}
             className='relative w-[181px] h-[238px] rounded-lg overflow-hidden transition-transform duration-300 hover:scale-105'
@@ -1058,7 +633,6 @@ const CharactersCard = () => {
             />
             <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
           </button>
-
 
 
 
@@ -1183,9 +757,6 @@ const CharactersCard = () => {
 
 
 
-
-
-
           <button 
             onClick={uma61}
             className='relative w-[181px] h-[238px] rounded-lg overflow-hidden transition-transform duration-300 hover:scale-105'
@@ -1307,7 +878,6 @@ const CharactersCard = () => {
 
 
 
-
           <button 
             onClick={uma71}
             className='relative w-[181px] h-[238px] rounded-lg overflow-hidden transition-transform duration-300 hover:scale-105'
@@ -1426,7 +996,6 @@ const CharactersCard = () => {
             />
             <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
           </button>
-
 
 
 
@@ -1667,7 +1236,6 @@ const CharactersCard = () => {
             />
             <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
           </button>
-          
         </div>
       </div>
     </div>
