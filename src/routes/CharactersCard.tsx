@@ -949,7 +949,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Sakura Bakushin O</span>
           </button>
           
           <button 
@@ -961,7 +961,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Seeking the Pearl</span>
           </button>
 
           <button 
@@ -973,7 +973,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Shinko Windy</span>
           </button>
 
          <button 
@@ -985,7 +985,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Sweep Tosho</span>
           </button>
           
           <button 
@@ -997,7 +997,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Super Creek</span>
           </button>
 
           <button 
@@ -1009,7 +1009,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Smart Falcon</span>
           </button>
 
           <button 
@@ -1021,7 +1021,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Zenno Rob Roy</span>
           </button>
           <button 
             onClick={uma48}
@@ -1032,7 +1032,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Tosen Jordan</span>
           </button>
 
           <button 
@@ -1044,7 +1044,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Nakayama Festa</span>
           </button>
 
           <button 
@@ -1056,7 +1056,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Narita Taishin</span>
           </button>
 
 
@@ -1071,7 +1071,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Nishino Flower</span>
           </button>
           
           <button 
@@ -1083,7 +1083,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Haru Urara</span>
           </button>
 
           <button 
@@ -1095,7 +1095,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Bamboo Memory</span>
           </button>
 
          <button 
@@ -1107,7 +1107,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Biko Pegasus</span>
           </button>
           
           <button 
@@ -1119,7 +1119,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Marvelous Sunday</span>
           </button>
 
           <button 
@@ -1131,7 +1131,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Matikanefukukitaru</span>
           </button>
 
           <button 
@@ -1143,7 +1143,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Mr. C.B.</span>
           </button>
           <button 
             onClick={uma58}
@@ -1154,7 +1154,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Meisho Doto</span>
           </button>
 
           <button 
@@ -1166,7 +1166,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Mejiro Dober</span>
           </button>
 
           <button 
@@ -1178,7 +1178,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Nice Nature</span>
           </button>
 
 
@@ -1195,7 +1195,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>King Halo</span>
           </button>
           
           <button 
@@ -1207,7 +1207,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Matikanetannhauser</span>
           </button>
 
           <button 
@@ -1219,7 +1219,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Ikuno Dictus</span>
           </button>
 
          <button 
@@ -1231,7 +1231,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Mejiro Palmer</span>
           </button>
           
           <button 
@@ -1243,7 +1243,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Daitaku Helios</span>
           </button>
 
           <button 
@@ -1255,7 +1255,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Twin Turbo</span>
           </button>
 
           <button 
@@ -1267,7 +1267,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Satono Diamond</span>
           </button>
           <button 
             onClick={uma68}
@@ -1278,7 +1278,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Kitasan Black</span>
           </button>
 
           <button 
@@ -1290,7 +1290,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Sakura Chiyono O</span>
           </button>
 
           <button 
@@ -1302,7 +1302,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Sirius Symboli</span>
           </button>
 
 
@@ -1317,7 +1317,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Mejiro Ardan</span>
           </button>
           
           <button 
@@ -1329,7 +1329,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Yaeno Muteki</span>
           </button>
 
           <button 
@@ -1341,7 +1341,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Tsurumaru Tsuyoshi</span>
           </button>
 
          <button 
@@ -1353,7 +1353,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Mejiro Bright</span>
           </button>
           
           <button 
@@ -1365,7 +1365,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Daring Tact</span>
           </button>
 
           <button 
@@ -1377,7 +1377,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Sakura Laurel</span>
           </button>
 
           <button 
@@ -1389,7 +1389,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Narita Top Road</span>
           </button>
           <button 
             onClick={uma78}
@@ -1400,7 +1400,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Yamanin Zephyr</span>
           </button>
 
           <button 
@@ -1412,7 +1412,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Furioso</span>
           </button>
 
           <button 
@@ -1424,7 +1424,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Transcend</span>
           </button>
 
 
@@ -1439,7 +1439,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Espoir City</span>
           </button>
           
           <button 
@@ -1451,7 +1451,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>North Flight</span>
           </button>
 
           <button 
@@ -1463,7 +1463,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Symboli Kris S</span>
           </button>
 
          <button 
@@ -1475,7 +1475,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Tanino Gimlet</span>
           </button>
           
           <button 
@@ -1487,7 +1487,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Daiichi Ruby</span>
           </button>
 
           <button 
@@ -1499,7 +1499,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Mejiro Ramonu</span>
           </button>
 
           <button 
@@ -1511,7 +1511,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Aston Machan</span>
           </button>
           <button 
             onClick={uma88}
@@ -1522,7 +1522,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Satono Crown</span>
           </button>
 
           <button 
@@ -1534,7 +1534,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Cheval Grand</span>
           </button>
 
           <button 
@@ -1546,7 +1546,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Verxina</span>
           </button>
 
             <button 
@@ -1558,7 +1558,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Vivlos</span>
           </button>
           
           <button 
@@ -1570,7 +1570,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Dantsu Flame</span>
           </button>
 
           <button 
@@ -1582,7 +1582,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>K.S. Miracle</span>
           </button>
 
          <button 
@@ -1594,7 +1594,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Jungle Pocket</span>
           </button>
           
           <button 
@@ -1606,7 +1606,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Believe</span>
           </button>
 
           <button 
@@ -1618,7 +1618,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>No reason</span>
           </button>
 
           <button 
@@ -1630,7 +1630,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Still in Love</span>
           </button>
           <button 
             onClick={uma98}
@@ -1641,7 +1641,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Copano Rickey</span>
           </button>
 
           <button 
@@ -1653,7 +1653,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Hokko Tarumae</span>
           </button>
 
           <button 
@@ -1665,7 +1665,7 @@ const CharactersCard = () => {
               alt="Special Week" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#EE6DCB] rounded-lg bg-white'
             />
-            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Special Week</span>
+            <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Wonder Acute</span>
           </button>
           
         </div>
