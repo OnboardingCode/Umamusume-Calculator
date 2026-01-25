@@ -1,4 +1,4 @@
-import cardImages from '../card-imgs.json';
+import cardImages from '../data/card_imgs.json';
 import { useUmaNavigation } from '../services/character_navigation';
 //NOTA: Los IDs de las Umas, son los game_id en la API
 
