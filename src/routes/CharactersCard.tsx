@@ -611,7 +611,7 @@ const CharactersCard = () => {
           </button>
 
           <button 
-            onClick={uma9}
+            onClick={uma49}
             className='relative w-[181px] h-[238px] rounded-lg overflow-hidden transition-transform duration-300 hover:scale-105'
           >
             <img 
