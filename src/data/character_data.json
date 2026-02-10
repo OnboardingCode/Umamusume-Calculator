@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1001,
+    "name": "Special Week",
+    "images": {
+      "banner": "public/outfits/card-1001.png",
+      "portrait": "public/portraits/character-1001.png",
+      "icon": "public/icons/icon-1001.png"
+    },
+    "stats": {
+      "speed": 83,
+      "stamina": 88,
+      "power": 98,
+      "guts": 90,
+      "wit": 90
+    },
+    "Track": {
+      "Turf": "A",
+      "Dirt": "G"
+    },
+    "Distance": {
+      "sprint": "F",
+      "mile": "C",
+      "medium": "A",
+      "long": "A"
+    },
+    "Style": {
+      "front": "G",
+      "pace": "A",
+      "late": "A",
+      "end": "C"
+    },
+    "Growth Rate": {
+      "growth-speed": "G",
+      "growth-stamina": "A",
+      "growth-power": "A",
+      "growth-guts": "C",
+      "growth-wit": "C"
+    }
+  },
+  {
+    "id": 1002,
+    "name": "Silence Suzuka",
+    "images": {
+      "banner": "public/outfits/card-1002.png",
+      "portrait": "public/portraits/character-1002.png",
+      "icon": "public/icons/icon-1002.png"
+    },
+    "stats": {
+      "speed": 92,
+      "stamina": 70,
+      "power": 88,
+      "guts": 75
+    },
+    "info": {
+      "rarity": "SSR",
+      "rank": "S",
+      "type": "Runner",
+      "distance": "Long"
+    }
+  }
+]
