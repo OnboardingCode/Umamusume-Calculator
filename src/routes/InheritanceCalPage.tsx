@@ -80,7 +80,7 @@ const InheritanceCalPage = () => {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8"> 
-    {/* Contenido*/}
+    {/* main body*/}
       <div className="max-w-6xl mx-auto">
         <div className="text-center mt-25">
           <h1 className="font-nunito text-4xl font-semibold mb-4">Inheritance Calculator</h1>
@@ -163,9 +163,6 @@ const InheritanceCalPage = () => {
             </div>
           </div>
 
-
-
-
           <div className="bg-white rounded-lg shadow-md p-4 border-2 border-[#9fd2e7]">
             <h3 className="font-medium mb-3 flex items-center justify-between">Grandarent 1
               <span className="inline-flex items-center px-2.5 py-0.5 text-xs font-medium rounded-2xl bg-sky-400 text-black">Secundary</span>
@@ -237,8 +234,6 @@ const InheritanceCalPage = () => {
               </div>
             </div>
           </div>
-
-
 
           <div className="bg-white rounded-lg shadow-md p-4 border-2 border-[#9fd2e7]">
             <h3 className="font-medium mb-3 flex items-center justify-between">Grandparent 2
@@ -312,7 +307,6 @@ const InheritanceCalPage = () => {
             </div>
           </div>
 
-
           <div className="bg-white rounded-lg shadow-md p-4 border-2 border-[#ff66a2]">
             <h3 className="font-medium mb-3 flex items-center justify-between">Parent 2
               <span className="inline-flex items-center px-2.5 py-0.5 text-xs font-medium rounded-2xl bg-sky-400 text-black"> Primary</span>
@@ -384,7 +378,6 @@ const InheritanceCalPage = () => {
               </div>
             </div>
           </div>
-
 
           <div className="bg-white rounded-lg shadow-md p-4 border-2 border-[#f1a1c1]">
             <h3 className="font-medium mb-3 flex items-center justify-between">Parent 1
@@ -458,7 +451,6 @@ const InheritanceCalPage = () => {
             </div>
           </div>
 
-
           <div className="bg-white rounded-lg shadow-md p-4 border-2 border-[#f1a1c1]">
             <h3 className="font-medium mb-3 flex items-center justify-between">Parent 1
               <span className="inline-flex items-center px-2.5 py-0.5 text-xs font-medium rounded-2xl bg-sky-400 text-black">Secundary</span>
@@ -530,13 +522,6 @@ const InheritanceCalPage = () => {
               </div>
             </div>
           </div>
-
-
-
-
-
-
-
         </div>
       </div>
     </div>
@@ -544,5 +529,4 @@ const InheritanceCalPage = () => {
   );
 
 };
-
 export default InheritanceCalPage;
