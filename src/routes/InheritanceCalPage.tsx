@@ -83,23 +83,23 @@ const InheritanceCalPage = () => {
   */
 
   return (
-    <div className="min-h-screen w-full bg-[#000000] overflow-hidden justify-center">
+    <div className="relative min-h-screen w-full bg-[#000000] overflow-hidden justify-center">
   
         <div className="absolute top-[50%] left-[30%] -translate-x-1/2 -translate-y-1/2 w-[1200px] h-[900px] bg-[#1393fb] rounded-full filter blur-[260px] opacity-20"></div>
 
         <div className="absolute top-[50%] left-[70%] -translate-x-1/2 -translate-y-1/2 w-[1200px] h-[900px] bg-[#e316c8] rounded-full filter blur-[260px] opacity-15"></div>
 
-        <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 mt-20">
-          <div className="grid grid-cols-4 grid-rows-3 gap-4">
-          <div className="col-span-4 col-start-1">
+        <div className="items-center mx-auto max-w-7xl px-4 py-2 sm:px-6 lg:px-1 mt-50 pb-9 pt-4">
+          <div className="grid grid-cols-4 grid-rows-[auto_1fr_auto] gap-x-6 gap-y-2">
+          <div className="col-span-4 col-start-1 m-25 -mt-29">
             <div className="text-center">
-              <h1 className="font-nunito text-4xl font-semibold mb-4">Inheritance Calculator</h1>
-              <p className="text-xl mb-4 font-semibold text-gray-500"> Legacy inheritance stats </p>
+              <h1 className="font-nunito text-4xl font-semibold mb-6 text-white">Legacy Inheritance Spark Calculator</h1>
+              <p className="text-xl mb-2 font-semibold text-gray-500">Calculate the exact stats bonus from legacy for your Uma </p>
             </div>
           </div>
-          <div className="col-span-2 row-span-2 col-start-1 row-start-2 ">2 
+          <div className="col-span-2 row-span-2 col-start-1 row-start-2">
 
-            <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-xl shadow-2xl mb-3">
+            <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-[#1393fb]/90 rounded-2xl p-8 backdrop-blur-xl shadow-2xl mb-3">
               <h1 className="text-white text-3xl font-bold tracking-wide border-b border-white/10 pb-4 mb-6">
                 Parent 1 Sparks
               </h1>
@@ -181,13 +181,433 @@ const InheritanceCalPage = () => {
               
             </div>      
 
-            <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-xl shadow-2xl">
+            <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-[#1162a5]/40 rounded-2xl p-8 backdrop-blur-xl shadow-2xl mb-3">
               <h1 className="text-white text-3xl font-bold tracking-wide border-b border-white/10 pb-4 mb-6">
-                Parent 1 Sparks
+                Grandarent 1 Sparks
               </h1>
-              <p className="text-gray-300 mb-6">1 = 5 points, 2 = 12 points, 3 = 21 points</p>
-            </div> 
+              <p className="text-white mb-6">1 = 5 points, 2 = 12 points, 3 = 21 points</p>
+               <div className="grid grid-cols-5 gap-2">
+                <div className="text-center">
+                   <label className="text-xs text-white block mb-1 capitalize">Speed</label>
+                   <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-sky-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp1Speed} onChange={(e) => setgp1Speed(e.target.value)}>
+                    <option value="0">-</option>
+                    <option value="1">★</option>
+                    <option value="2">★★</option>
+                    <option value="3">★★★</option>
+                  </select>
+                  <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                    +{getSparkPoints(gp1Speed)}
+                </h1>
+                </div>
+
+                <div className="text-center">
+                  <label className="text-xs text-white block mb-1 capitalize">Stamina</label>
+                    <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-sky-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp1Stamina} onChange={(e) => setgp1Stamina(e.target.value)}>
+                      <option value="0">-</option>
+                      <option value="1">★</option>
+                      <option value="2">★★</option>
+                      <option value="3">★★★</option>
+                    </select>
+                  <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                    +{getSparkPoints(gp1Stamina)}
+                  </h1>
+              </div>
+
+               <div className="text-center">
+                  <label className="text-xs text-white block mb-1 capitalize">Power</label>
+                    <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-sky-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp1Power} onChange={(e) => setgp1Power(e.target.value)}>
+                      <option value="0">-</option>
+                      <option value="1">★</option>
+                      <option value="2">★★</option>
+                      <option value="3">★★★</option>
+                    </select>
+                    <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                      +{getSparkPoints(gp1Power)}
+                    </h1>
+              </div>
+
+
+              <div className="text-center">
+                <label className="text-xs text-white block mb-1 capitalize">Guts</label>
+                  <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-sky-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp1Guts} onChange={(e) => setgp1Guts(e.target.value)}>
+                    <option value="0">-</option>
+                    <option value="1">★</option>
+                    <option value="2">★★</option>
+                    <option value="3">★★★</option>
+                  </select>
+                  <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                    +{getSparkPoints(gp1Guts)}
+                  </h1>
+              </div>
+
+
+              <div className="text-center">
+                <label className="text-xs text-white block mb-1 capitalize">Wit</label>
+                  <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-sky-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp1Wit} onChange={(e) => setgp1Wit(e.target.value)}>
+                    <option value="0">-</option>
+                    <option value="1">★</option>
+                    <option value="2">★★</option>
+                    <option value="3">★★★</option>
+                  </select>
+                  <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                    +{getSparkPoints(gp1Wit)}
+                  </h1>
+              </div>
+
+
+
+               </div>
+
+
+               
+              
+            </div>  
+
+            <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-[#1393fb]/40 rounded-2xl p-8 backdrop-blur-xl shadow-2xl mb-3">
+              <h1 className="text-white text-3xl font-bold tracking-wide border-b border-white/10 pb-4 mb-6">
+                Grandarent 2 Sparks
+              </h1>
+              <p className="text-white mb-6">1 = 5 points, 2 = 12 points, 3 = 21 points</p>
+               <div className="grid grid-cols-5 gap-2">
+                <div className="text-center">
+                   <label className="text-xs text-white block mb-1 capitalize">Speed</label>
+                   <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-sky-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp2Speed} onChange={(e) => setgp2Speed(e.target.value)}>
+                    <option value="0">-</option>
+                    <option value="1">★</option>
+                    <option value="2">★★</option>
+                    <option value="3">★★★</option>
+                  </select>
+                  <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                    +{getSparkPoints(gp2Speed)}
+                </h1>
+                </div>
+
+                <div className="text-center">
+                  <label className="text-xs text-white block mb-1 capitalize">Stamina</label>
+                    <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-sky-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp2Stamina} onChange={(e) => setgp2Stamina(e.target.value)}>
+                      <option value="0">-</option>
+                      <option value="1">★</option>
+                      <option value="2">★★</option>
+                      <option value="3">★★★</option>
+                    </select>
+                  <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                    +{getSparkPoints(gp2Stamina)}
+                  </h1>
+              </div>
+
+               <div className="text-center">
+                  <label className="text-xs text-white block mb-1 capitalize">Power</label>
+                    <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-sky-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp2Power} onChange={(e) => setgp2Power(e.target.value)}>
+                      <option value="0">-</option>
+                      <option value="1">★</option>
+                      <option value="2">★★</option>
+                      <option value="3">★★★</option>
+                    </select>
+                    <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                      +{getSparkPoints(gp2Power)}
+                    </h1>
+              </div>
+
+
+              <div className="text-center">
+                <label className="text-xs text-white block mb-1 capitalize">Guts</label>
+                  <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-sky-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp2Guts} onChange={(e) => setgp2Guts(e.target.value)}>
+                    <option value="0">-</option>
+                    <option value="1">★</option>
+                    <option value="2">★★</option>
+                    <option value="3">★★★</option>
+                  </select>
+                  <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                    +{getSparkPoints(gp2Guts)}
+                  </h1>
+              </div>
+
+
+              <div className="text-center">
+                <label className="text-xs text-white block mb-1 capitalize">Wit</label>
+                  <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-sky-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp2Wit} onChange={(e) => setgp2Wit(e.target.value)}>
+                    <option value="0">-</option>
+                    <option value="1">★</option>
+                    <option value="2">★★</option>
+                    <option value="3">★★★</option>
+                  </select>
+                  <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                    +{getSparkPoints(gp2Wit)}
+                  </h1>
+              </div>
+
+
+
+               </div>
+
+
+               
+              
+            </div>  
             
+
+
+
+
+            <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-[#e316c8]/90 rounded-2xl p-8 backdrop-blur-xl shadow-2xl mb-3">
+              <h1 className="text-white text-3xl font-bold tracking-wide border-b border-white/10 pb-4 mb-6">
+                Parent 2 Sparks
+              </h1>
+              <p className="text-white mb-6">1 = 5 points, 2 = 12 points, 3 = 21 points</p>
+               <div className="grid grid-cols-5 gap-2">
+                <div className="text-center">
+                   <label className="text-xs text-white block mb-1 capitalize">Speed</label>
+                   <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={p2Speed} onChange={(e) => setp2Speed(e.target.value)}>
+                    <option value="0">-</option>
+                    <option value="1">★</option>
+                    <option value="2">★★</option>
+                    <option value="3">★★★</option>
+                  </select>
+                  <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                    +{getSparkPoints(p2Speed)}
+                   </h1>
+                </div>
+
+                <div className="text-center">
+                  <label className="text-xs text-white block mb-1 capitalize">Stamina</label>
+                    <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={p2Stamina} onChange={(e) => setp2Stamina(e.target.value)}>
+                      <option value="0">-</option>
+                      <option value="1">★</option>
+                      <option value="2">★★</option>
+                      <option value="3">★★★</option>
+                    </select>
+                  <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                    +{getSparkPoints(p2Stamina)}
+                  </h1>
+              </div>
+
+               <div className="text-center">
+                  <label className="text-xs text-white block mb-1 capitalize">Power</label>
+                    <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={p2Power} onChange={(e) => setp2Power(e.target.value)}>
+                      <option value="0">-</option>
+                      <option value="1">★</option>
+                      <option value="2">★★</option>
+                      <option value="3">★★★</option>
+                    </select>
+                    <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                    +{getSparkPoints(p2Power)}
+                    </h1>
+              </div>
+
+
+              <div className="text-center">
+                <label className="text-xs text-white block mb-1 capitalize">Guts</label>
+                  <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={p2Guts} onChange={(e) => setp2Guts(e.target.value)}>
+                    <option value="0">-</option>
+                    <option value="1">★</option>
+                    <option value="2">★★</option>
+                    <option value="3">★★★</option>
+                  </select>
+                  <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                    +{getSparkPoints(p2Guts)}
+                  </h1>
+              </div>
+
+
+              <div className="text-center">
+                <label className="text-xs text-white block mb-1 capitalize">Wit</label>
+                  <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={p2Wit} onChange={(e) => setp2Wit(e.target.value)}>
+                    <option value="0">-</option>
+                    <option value="1">★</option>
+                    <option value="2">★★</option>
+                    <option value="3">★★★</option>
+                  </select>
+                  <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                    +{getSparkPoints(p2Wit)}
+                  </h1>
+              </div>
+
+
+
+               </div>
+
+
+               
+              
+            </div>      
+
+
+
+            <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-[#e316c8]/40 rounded-2xl p-8 backdrop-blur-xl shadow-2xl mb-3">
+              <h1 className="text-white text-3xl font-bold tracking-wide border-b border-white/10 pb-4 mb-6">
+                Grandarent 3 Sparks
+              </h1>
+              <p className="text-white mb-6">1 = 5 points, 2 = 12 points, 3 = 21 points</p>
+               <div className="grid grid-cols-5 gap-2">
+                <div className="text-center">
+                   <label className="text-xs text-white block mb-1 capitalize">Speed</label>
+                   <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp3Speed} onChange={(e) => setgp3Speed(e.target.value)}>
+                    <option value="0">-</option>
+                    <option value="1">★</option>
+                    <option value="2">★★</option>
+                    <option value="3">★★★</option>
+                  </select>
+                  <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                    +{getSparkPoints(gp3Speed)}
+                </h1>
+                </div>
+
+                <div className="text-center">
+                  <label className="text-xs text-white block mb-1 capitalize">Stamina</label>
+                    <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp3Stamina} onChange={(e) => setgp3Stamina(e.target.value)}>
+                      <option value="0">-</option>
+                      <option value="1">★</option>
+                      <option value="2">★★</option>
+                      <option value="3">★★★</option>
+                    </select>
+                  <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                    +{getSparkPoints(gp3Stamina)}
+                  </h1>
+              </div>
+
+               <div className="text-center">
+                  <label className="text-xs text-white block mb-1 capitalize">Power</label>
+                    <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp3Power} onChange={(e) => setgp3Power(e.target.value)}>
+                      <option value="0">-</option>
+                      <option value="1">★</option>
+                      <option value="2">★★</option>
+                      <option value="3">★★★</option>
+                    </select>
+                    <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                      +{getSparkPoints(gp3Power)}
+                    </h1>
+              </div>
+
+
+              <div className="text-center">
+                <label className="text-xs text-white block mb-1 capitalize">Guts</label>
+                  <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp3Guts} onChange={(e) => setgp3Guts(e.target.value)}>
+                    <option value="0">-</option>
+                    <option value="1">★</option>
+                    <option value="2">★★</option>
+                    <option value="3">★★★</option>
+                  </select>
+                  <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                    +{getSparkPoints(gp3Guts)}
+                  </h1>
+              </div>
+
+
+              <div className="text-center">
+                <label className="text-xs text-white block mb-1 capitalize">Wit</label>
+                  <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp3Wit} onChange={(e) => setgp3Wit(e.target.value)}>
+                    <option value="0">-</option>
+                    <option value="1">★</option>
+                    <option value="2">★★</option>
+                    <option value="3">★★★</option>
+                  </select>
+                  <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                    +{getSparkPoints(gp3Wit)}
+                  </h1>
+              </div>
+
+
+
+               </div>
+
+
+               
+              
+            </div>  
+
+            <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-[#e316c8]/40 rounded-2xl p-8 backdrop-blur-xl shadow-2xl mb-3">
+              <h1 className="text-white text-3xl font-bold tracking-wide border-b border-white/10 pb-4 mb-6">
+                Grandarent 4 Sparks
+              </h1>
+              <p className="text-white mb-6">1 = 5 points, 2 = 12 points, 3 = 21 points</p>
+               <div className="grid grid-cols-5 gap-2">
+                <div className="text-center">
+                   <label className="text-xs text-white block mb-1 capitalize">Speed</label>
+                   <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pinpink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Speed} onChange={(e) => setgp4Speed(e.target.value)}>
+                    <option value="0">-</option>
+                    <option value="1">★</option>
+                    <option value="2">★★</option>
+                    <option value="3">★★★</option>
+                  </select>
+                  <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                    +{getSparkPoints(gp4Speed)}
+                </h1>
+                </div>
+
+                <div className="text-center">
+                  <label className="text-xs text-white block mb-1 capitalize">Stamina</label>
+                    <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pinpink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Stamina} onChange={(e) => setgp4Stamina(e.target.value)}>
+                      <option value="0">-</option>
+                      <option value="1">★</option>
+                      <option value="2">★★</option>
+                      <option value="3">★★★</option>
+                    </select>
+                  <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                    +{getSparkPoints(gp4Stamina)}
+                  </h1>
+              </div>
+
+               <div className="text-center">
+                  <label className="text-xs text-white block mb-1 capitalize">Power</label>
+                    <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pinpink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Power} onChange={(e) => setgp4Power(e.target.value)}>
+                      <option value="0">-</option>
+                      <option value="1">★</option>
+                      <option value="2">★★</option>
+                      <option value="3">★★★</option>
+                    </select>
+                    <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                      +{getSparkPoints(gp4Power)}
+                    </h1>
+              </div>
+
+
+              <div className="text-center">
+                <label className="text-xs text-white block mb-1 capitalize">Guts</label>
+                  <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pinpink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Guts} onChange={(e) => setgp4Guts(e.target.value)}>
+                    <option value="0">-</option>
+                    <option value="1">★</option>
+                    <option value="2">★★</option>
+                    <option value="3">★★★</option>
+                  </select>
+                  <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                    +{getSparkPoints(gp4Guts)}
+                  </h1>
+              </div>
+
+
+              <div className="text-center">
+                <label className="text-xs text-white block mb-1 capitalize">Wit</label>
+                  <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pinpink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Wit} onChange={(e) => setgp4Wit(e.target.value)}>
+                    <option value="0">-</option>
+                    <option value="1">★</option>
+                    <option value="2">★★</option>
+                    <option value="3">★★★</option>
+                  </select>
+                  <h1 id="parent1-speedBox" className="text-xs mt-1 font-medium text-white stat-bonus">
+                    +{getSparkPoints(gp4Wit)}
+                  </h1>
+              </div>
+
+
+
+               </div>
+
+
+               
+              
+            </div>  
+
+
+
+
+
+
+
+
+
+
+
+
           </div>
           <div className="col-span-2 col-start-3 row-start-2">3
             <div className="relative z-10 w-full max-w-2xl bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-xl shadow-2xl">
