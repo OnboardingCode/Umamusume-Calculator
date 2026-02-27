@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Home from "./routes/Home";
 import CharactersCard from "./routes/CharactersCard";
 import CharactersInfo from "./routes/CharactersInfo";
@@ -19,6 +20,8 @@ function App() {
           <Route path="/character" element={<CharactersInfo />} />
           <Route path="/inheritance" element={<InheritanceCalPage />} />
         </Routes>
+
+        <Footer />
       </div>
     </>
   )
