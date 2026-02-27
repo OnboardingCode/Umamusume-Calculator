@@ -6,10 +6,7 @@ import CharactersCard from "./routes/CharactersCard";
 import CharactersInfo from "./routes/CharactersInfo";
 import InheritanceCalPage from "./routes/InheritanceCalPage";
 
-
 function App() {
-
-
   return (
     <>
       <div className="min-h-screen flex flex-col bg-gray-50">
@@ -20,7 +17,6 @@ function App() {
           <Route path="/character" element={<CharactersInfo />} />
           <Route path="/inheritance" element={<InheritanceCalPage />} />
         </Routes>
-
         <Footer />
       </div>
     </>
