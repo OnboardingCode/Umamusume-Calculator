@@ -14,22 +14,22 @@ const Footer = () => {
         {/*Adición de íconos*/}
         <div className="flex flex-row items-center justify-center gap-8 md:gap-12 text-sm font-medium text-white -mt-10">
           
-          <div className="flex items-center gap-2 cursor-pointer hover:text-pink-300 transition-colors duration-300">
+          <div className="flex items-center gap-2 cursor-pointer">
             <LuBadgeInfo className="text-xl" />
             <span className="hidden sm:inline">About Us</span>
           </div>
 
-          <div className="flex items-center gap-2 cursor-pointer hover:text-pink-300 transition-colors duration-300">
+          <div className="flex items-center gap-2 cursor-pointer">
             <IoMapOutline className="text-xl" />
             <span className="hidden sm:inline">Guides</span>
           </div>
 
-          <div className="flex items-center gap-2 cursor-pointer hover:text-pink-300 transition-colors duration-300">
+          <div className="flex items-center gap-2 cursor-pointer">
             <FiMessageSquare className="text-xl" />
             <span className="hidden sm:inline">example</span>
           </div>
 
-          <div className="flex items-center gap-2 cursor-pointer hover:text-pink-300 transition-colors duration-300">
+          <div className="flex items-center gap-2 cursor-pointer">
             <MdOutlinePrivacyTip className="text-xl" />
             <span className="hidden sm:inline">Privacy Policy</span>
           </div>
