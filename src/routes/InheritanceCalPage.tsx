@@ -502,7 +502,7 @@ const InheritanceCalPage = () => {
                <div className="grid grid-cols-5 gap-2">
                 <div className="text-center">
                    <label className="text-xs text-white block mb-1 capitalize">Speed</label>
-                   <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pinpink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Speed} onChange={(e) => setgp4Speed(e.target.value)}>
+                   <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-white/50 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Speed} onChange={(e) => setgp4Speed(e.target.value)}>
                     <option value="0">-</option>
                     <option value="1">★</option>
                     <option value="2">★★</option>
@@ -515,7 +515,7 @@ const InheritanceCalPage = () => {
 
                 <div className="text-center">
                   <label className="text-xs text-white block mb-1 capitalize">Stamina</label>
-                    <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pinpink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Stamina} onChange={(e) => setgp4Stamina(e.target.value)}>
+                    <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-white/50 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Stamina} onChange={(e) => setgp4Stamina(e.target.value)}>
                       <option value="0">-</option>
                       <option value="1">★</option>
                       <option value="2">★★</option>
@@ -528,7 +528,7 @@ const InheritanceCalPage = () => {
 
                <div className="text-center">
                   <label className="text-xs text-white block mb-1 capitalize">Power</label>
-                    <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pinpink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Power} onChange={(e) => setgp4Power(e.target.value)}>
+                    <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-white/50 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Power} onChange={(e) => setgp4Power(e.target.value)}>
                       <option value="0">-</option>
                       <option value="1">★</option>
                       <option value="2">★★</option>
@@ -541,7 +541,7 @@ const InheritanceCalPage = () => {
 
               <div className="text-center">
                 <label className="text-xs text-white block mb-1 capitalize">Guts</label>
-                  <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pinpink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Guts} onChange={(e) => setgp4Guts(e.target.value)}>
+                  <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-white/50 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Guts} onChange={(e) => setgp4Guts(e.target.value)}>
                     <option value="0">-</option>
                     <option value="1">★</option>
                     <option value="2">★★</option>
@@ -554,7 +554,7 @@ const InheritanceCalPage = () => {
 
               <div className="text-center">
                 <label className="text-xs text-white block mb-1 capitalize">Wit</label>
-                  <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pinpink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Wit} onChange={(e) => setgp4Wit(e.target.value)}>
+                  <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-white/50 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Wit} onChange={(e) => setgp4Wit(e.target.value)}>
                     <option value="0">-</option>
                     <option value="1">★</option>
                     <option value="2">★★</option>
@@ -569,28 +569,17 @@ const InheritanceCalPage = () => {
 
           </div>
           {/**This box is where the Spark result will be displayed */}
-          <div className="col-span-2 col-start-3 row-start-2">3
-            <div className="relative z-10 w-full max-w-2xl bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-xl shadow-2xl">
-              <h1 className="text-white text-3xl font-bold tracking-wide border-b border-white/10 pb-4 mb-6">
-                Total Inheritance Stats Bonus
-              </h1>
-
-              <p className="text-gray-300 ">1 = 5 points, 2 = 12 points, 3 = 21 points</p>
-
+          <div className="col-span-2 col-start-3 row-start-2">
+            <div className="relative z-10 w-full max-w-2xl bg-white/5 border border-white/10 rounded-2xl p-4 backdrop-blur-xl shadow-2xl">
+              <h1 className="text-white text-3xl font-bold tracking-wide border-b border-white/10 pb-2 mb-1">Total Inheritance Stats Bonus</h1>
+              <p className="text-white/50 mt-3 mb-3 ">Inheritance stats from all 6 legacy sources</p>    
               <h1 className="text-gray-300">Speed: <span className="text-gray-300 ml-22 font-extrabold">+{totalSpeed}</span></h1>
-
               <h1 className="text-gray-300">Stamina: <span className="text-gray-300 ml-19 font-extrabold">+{totalStamina}</span></h1>
-
               <h1 className="text-gray-300">Power: <span className="text-gray-300 ml-22.5 font-extrabold">+{totalPower}</span></h1>
-
               <h1 className="text-gray-300">Guts: <span className="text-gray-300 ml-25 font-extrabold">+{totalGuts}</span></h1>
-
               <h1 className="text-gray-300 ">Wit: <span className="text-gray-300 ml-27 font-extrabold">+{totalWit}</span></h1>
               <p className="mt-2 -mb-3 border-b border-white/20"></p>
-
               <h1 className="text-gray-300 mt-4">Total Inheritance: <span className="text-xl text-gray-300 ml-4 font-extrabold">+{totalStats}</span></h1>
-
-   
             </div>      
           </div>
 
