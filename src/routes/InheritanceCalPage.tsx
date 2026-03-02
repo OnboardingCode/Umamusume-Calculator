@@ -9,6 +9,11 @@
 //Globals Imports
 import { useState } from "react";
 
+{/* TODO:
+  []Fix or add UI elements like Colors, borders, responsive design
+  []Add guide text for Users, the implementation of Guides need to be implemented (Aleandro and Felix)
+  [](meaby) Fix box size and length*/}
+
 
 
 const InheritanceCalPage = () => {
