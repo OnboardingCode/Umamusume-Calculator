@@ -9,6 +9,11 @@
 //Globals Imports
 import { useState } from "react";
 
+{/* TODO:
+  []Fix or add UI elements like Colors, borders, responsive design
+  []Add guide text for Users, the implementation of Guides need to be implemented (Aleandro and Felix)
+  [](meaby) Fix box size and length*/}
+
 
 
 const InheritanceCalPage = () => {
@@ -56,8 +61,6 @@ const InheritanceCalPage = () => {
   const [gp4Wit, setgp4Wit] = useState("0");
 
 
-
-
   const getSparkPoints = (value: string): number => {
     const num = parseInt(value);
     if (num === 1) return 5;
@@ -66,21 +69,53 @@ const InheritanceCalPage = () => {
 
     return 0;
   }
+  //total Inheritance Values
+  const totalSpeed = 
+  getSparkPoints(p1Speed) +
+  getSparkPoints(gp1Speed) +
+  getSparkPoints(gp2Speed) +
+  getSparkPoints(p2Speed) +
+  getSparkPoints(gp3Speed) +
+  getSparkPoints(gp4Speed);
 
-/*
- const rawP1Speed = getSparkPoints(p1Speed);
- const rawP1Stamina = getSparkPoints(p1Stamia);
- const rawP1Power = getSparkPoints(p1Power);
- const rawP1Guts = getSparkPoints(p1Guts);
- const rawP1Wit = getSparkPoints(p1Wit);
+  const totalStamina = 
+  getSparkPoints(p1Stamina) +
+  getSparkPoints(gp1Stamina) +
+  getSparkPoints(gp2Stamina) +
+  getSparkPoints(p2Stamina) +
+  getSparkPoints(gp3Stamina) +
+  getSparkPoints(gp4Stamina);
 
- console.log(`Raw speed: ${rawP1Speed}`);
-  console.log(`Raw power: ${rawP1Power}`);
+  const totalPower = 
+  getSparkPoints(p1Power) +
+  getSparkPoints(gp1Power) +
+  getSparkPoints(gp2Power) +
+  getSparkPoints(p2Power) +
+  getSparkPoints(gp3Power) +
+  getSparkPoints(gp4Power);
 
-  const total = rawP1Speed + rawP1Power;
+  const totalGuts = 
+  getSparkPoints(p1Guts) +
+  getSparkPoints(gp1Guts) +
+  getSparkPoints(gp2Guts) +
+  getSparkPoints(p2Guts) +
+  getSparkPoints(gp3Guts) +
+  getSparkPoints(gp4Guts);
 
-  console.log(`Raw total sum ${total}`);
-  */
+  const totalWit = 
+  getSparkPoints(p1Wit) +
+  getSparkPoints(gp1Wit) +
+  getSparkPoints(gp2Wit) +
+  getSparkPoints(p2Wit) +
+  getSparkPoints(gp3Wit) +
+  getSparkPoints(gp4Wit);
+
+
+  const totalStats = totalSpeed + totalStamina + totalPower + totalWit + totalGuts;
+
+  
+
+  
 
   return (
     <div className="relative min-h-screen w-full bg-[#000000] overflow-hidden justify-center">
@@ -144,7 +179,6 @@ const InheritanceCalPage = () => {
                     </h1>
               </div>
 
-
               <div className="text-center">
                 <label className="text-xs text-white block mb-1 capitalize">Guts</label>
                   <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-sky-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={p1Guts} onChange={(e) => setp1Guts(e.target.value)}>
@@ -158,7 +192,6 @@ const InheritanceCalPage = () => {
                   </h1>
               </div>
 
-
               <div className="text-center">
                 <label className="text-xs text-white block mb-1 capitalize">Wit</label>
                   <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-sky-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={p1Wit} onChange={(e) => setp1Wit(e.target.value)}>
@@ -171,14 +204,7 @@ const InheritanceCalPage = () => {
                     +{getSparkPoints(p1Wit)}
                   </h1>
               </div>
-
-
-
-               </div>
-
-
-               
-              
+               </div>                          
             </div>      
 
             <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-[#1162a5]/40 rounded-2xl p-8 backdrop-blur-xl shadow-2xl mb-3">
@@ -226,7 +252,6 @@ const InheritanceCalPage = () => {
                     </h1>
               </div>
 
-
               <div className="text-center">
                 <label className="text-xs text-white block mb-1 capitalize">Guts</label>
                   <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-sky-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp1Guts} onChange={(e) => setgp1Guts(e.target.value)}>
@@ -240,7 +265,6 @@ const InheritanceCalPage = () => {
                   </h1>
               </div>
 
-
               <div className="text-center">
                 <label className="text-xs text-white block mb-1 capitalize">Wit</label>
                   <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-sky-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp1Wit} onChange={(e) => setgp1Wit(e.target.value)}>
@@ -253,14 +277,7 @@ const InheritanceCalPage = () => {
                     +{getSparkPoints(gp1Wit)}
                   </h1>
               </div>
-
-
-
-               </div>
-
-
-               
-              
+               </div>                            
             </div>  
 
             <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-[#1393fb]/40 rounded-2xl p-8 backdrop-blur-xl shadow-2xl mb-3">
@@ -308,7 +325,6 @@ const InheritanceCalPage = () => {
                     </h1>
               </div>
 
-
               <div className="text-center">
                 <label className="text-xs text-white block mb-1 capitalize">Guts</label>
                   <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-sky-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp2Guts} onChange={(e) => setgp2Guts(e.target.value)}>
@@ -322,7 +338,6 @@ const InheritanceCalPage = () => {
                   </h1>
               </div>
 
-
               <div className="text-center">
                 <label className="text-xs text-white block mb-1 capitalize">Wit</label>
                   <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-sky-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp2Wit} onChange={(e) => setgp2Wit(e.target.value)}>
@@ -335,20 +350,9 @@ const InheritanceCalPage = () => {
                     +{getSparkPoints(gp2Wit)}
                   </h1>
               </div>
-
-
-
-               </div>
-
-
-               
-              
+               </div>                        
             </div>  
             
-
-
-
-
             <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-[#e316c8]/90 rounded-2xl p-8 backdrop-blur-xl shadow-2xl mb-3">
               <h1 className="text-white text-3xl font-bold tracking-wide border-b border-white/10 pb-4 mb-6">
                 Parent 2 Sparks
@@ -394,7 +398,6 @@ const InheritanceCalPage = () => {
                     </h1>
               </div>
 
-
               <div className="text-center">
                 <label className="text-xs text-white block mb-1 capitalize">Guts</label>
                   <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={p2Guts} onChange={(e) => setp2Guts(e.target.value)}>
@@ -408,7 +411,6 @@ const InheritanceCalPage = () => {
                   </h1>
               </div>
 
-
               <div className="text-center">
                 <label className="text-xs text-white block mb-1 capitalize">Wit</label>
                   <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={p2Wit} onChange={(e) => setp2Wit(e.target.value)}>
@@ -421,17 +423,8 @@ const InheritanceCalPage = () => {
                     +{getSparkPoints(p2Wit)}
                   </h1>
               </div>
-
-
-
-               </div>
-
-
-               
-              
+               </div>                           
             </div>      
-
-
 
             <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-[#e316c8]/40 rounded-2xl p-8 backdrop-blur-xl shadow-2xl mb-3">
               <h1 className="text-white text-3xl font-bold tracking-wide border-b border-white/10 pb-4 mb-6">
@@ -478,7 +471,6 @@ const InheritanceCalPage = () => {
                     </h1>
               </div>
 
-
               <div className="text-center">
                 <label className="text-xs text-white block mb-1 capitalize">Guts</label>
                   <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp3Guts} onChange={(e) => setgp3Guts(e.target.value)}>
@@ -492,7 +484,6 @@ const InheritanceCalPage = () => {
                   </h1>
               </div>
 
-
               <div className="text-center">
                 <label className="text-xs text-white block mb-1 capitalize">Wit</label>
                   <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp3Wit} onChange={(e) => setgp3Wit(e.target.value)}>
@@ -505,14 +496,7 @@ const InheritanceCalPage = () => {
                     +{getSparkPoints(gp3Wit)}
                   </h1>
               </div>
-
-
-
-               </div>
-
-
-               
-              
+               </div>             
             </div>  
 
             <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-[#e316c8]/40 rounded-2xl p-8 backdrop-blur-xl shadow-2xl mb-3">
@@ -523,7 +507,7 @@ const InheritanceCalPage = () => {
                <div className="grid grid-cols-5 gap-2">
                 <div className="text-center">
                    <label className="text-xs text-white block mb-1 capitalize">Speed</label>
-                   <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pinpink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Speed} onChange={(e) => setgp4Speed(e.target.value)}>
+                   <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-white/50 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Speed} onChange={(e) => setgp4Speed(e.target.value)}>
                     <option value="0">-</option>
                     <option value="1">★</option>
                     <option value="2">★★</option>
@@ -536,7 +520,7 @@ const InheritanceCalPage = () => {
 
                 <div className="text-center">
                   <label className="text-xs text-white block mb-1 capitalize">Stamina</label>
-                    <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pinpink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Stamina} onChange={(e) => setgp4Stamina(e.target.value)}>
+                    <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-white/50 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Stamina} onChange={(e) => setgp4Stamina(e.target.value)}>
                       <option value="0">-</option>
                       <option value="1">★</option>
                       <option value="2">★★</option>
@@ -549,7 +533,7 @@ const InheritanceCalPage = () => {
 
                <div className="text-center">
                   <label className="text-xs text-white block mb-1 capitalize">Power</label>
-                    <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pinpink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Power} onChange={(e) => setgp4Power(e.target.value)}>
+                    <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-white/50 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Power} onChange={(e) => setgp4Power(e.target.value)}>
                       <option value="0">-</option>
                       <option value="1">★</option>
                       <option value="2">★★</option>
@@ -560,10 +544,9 @@ const InheritanceCalPage = () => {
                     </h1>
               </div>
 
-
               <div className="text-center">
                 <label className="text-xs text-white block mb-1 capitalize">Guts</label>
-                  <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pinpink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Guts} onChange={(e) => setgp4Guts(e.target.value)}>
+                  <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-white/50 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Guts} onChange={(e) => setgp4Guts(e.target.value)}>
                     <option value="0">-</option>
                     <option value="1">★</option>
                     <option value="2">★★</option>
@@ -574,10 +557,9 @@ const InheritanceCalPage = () => {
                   </h1>
               </div>
 
-
               <div className="text-center">
                 <label className="text-xs text-white block mb-1 capitalize">Wit</label>
-                  <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-pinpink-300 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Wit} onChange={(e) => setgp4Wit(e.target.value)}>
+                  <select id="parent1-speed" className="stat-selector w-full px-2 py-1 border border-white/50 rounded text-sm text-white bg-gray-900 focus:ring-2 focus:ring-sky-500 focus:border-transparent" value={gp4Wit} onChange={(e) => setgp4Wit(e.target.value)}>
                     <option value="0">-</option>
                     <option value="1">★</option>
                     <option value="2">★★</option>
@@ -587,38 +569,29 @@ const InheritanceCalPage = () => {
                     +{getSparkPoints(gp4Wit)}
                   </h1>
               </div>
-
-
-
                </div>
-
-
-               
-              
             </div>  
 
-
-
-
-
-
-
-
-
-
-
-
           </div>
-          <div className="col-span-2 col-start-3 row-start-2">3
-            <div className="relative z-10 w-full max-w-2xl bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-xl shadow-2xl">
-              <h1 className="text-white text-3xl font-bold tracking-wide border-b border-white/10 pb-4 mb-6">
-                Total Stats Bonus
-              </h1>
-              <p className="text-gray-300 mb-6">1 = 5 points, 2 = 12 points, 3 = 21 points</p>
-   
+          {/**This box is where the Spark result will be displayed */}
+          <div className="col-span-2 col-start-3 row-start-2">
+            <div className="relative z-10 w-full max-w-2xl bg-white/5 border border-white/10 rounded-2xl p-4 backdrop-blur-xl shadow-2xl">
+              <h1 className="text-white text-3xl font-bold tracking-wide border-b border-white/10 pb-2 mb-1">Total Inheritance Stats Bonus</h1>
+              <p className="text-white/50 mt-3 mb-3 ">Inheritance stats from all 6 legacy sources</p>    
+              <h1 className="text-gray-300">Speed: <span className="text-gray-300 ml-22 font-extrabold">+{totalSpeed}</span></h1>
+              <h1 className="text-gray-300">Stamina: <span className="text-gray-300 ml-19 font-extrabold">+{totalStamina}</span></h1>
+              <h1 className="text-gray-300">Power: <span className="text-gray-300 ml-22.5 font-extrabold">+{totalPower}</span></h1>
+              <h1 className="text-gray-300">Guts: <span className="text-gray-300 ml-25 font-extrabold">+{totalGuts}</span></h1>
+              <h1 className="text-gray-300 ">Wit: <span className="text-gray-300 ml-27 font-extrabold">+{totalWit}</span></h1>
+              <p className="mt-2 -mb-3 border-b border-white/20"></p>
+              <h1 className="text-gray-300 mt-4">Total Inheritance: <span className="text-xl text-gray-300 ml-4 font-extrabold">+{totalStats}</span></h1>
             </div>      
-
           </div>
+
+
+
+
+
           <div className="col-span-2 col-start-3 row-start-3">4</div>
         </div>
       </div>
