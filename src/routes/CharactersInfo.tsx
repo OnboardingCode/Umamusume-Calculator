@@ -81,7 +81,7 @@ const CharactersInfo = () => {
           <h2 className="text-xl mb-2 text-black-600">{character?.nameJP}</h2>
           <h2 className="text-xl mb-2 text-black-600">{character?.nameEN}</h2>
           <h2 className="text-xl mb-4 text-black-600">ID: {character?.id}</h2>
-          <h2 className="text-xl mb-4 text-black-600">Details:</h2>
+          <h2 className="text-xl mb-4 text-black-600">Details:</h2> 
           <h2 className="text-xl mb-4 text-black-600">Birthday: {character?.Details.birthday}</h2>
 
           <img
