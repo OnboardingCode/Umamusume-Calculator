@@ -134,11 +134,9 @@ const InheritanceCalPage = () => {
           </div>
           <div className="col-span-2 row-span-2 col-start-1 row-start-2">
 
-            <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-[#1393fb]/90 rounded-2xl p-8 backdrop-blur-xl shadow-2xl mb-3">
+            <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-[#1393fb]/90 rounded-2xl p-3 backdrop-blur-xl shadow-2xl mb-3">
               <h1 className="text-white text-3xl font-bold tracking-wide border-b border-white/10 pb-4 mb-6">
-                Parent 1 Sparks
-              </h1>
-              <p className="text-white mb-6">1 = 5 points, 2 = 12 points, 3 = 21 points</p>
+                Parent 1 Sparks <span className="text-xs ml-60 border-2 border-[#1393fb]/90 rounded-full bg-[#1393fb]/60 pl-2 pr-2">Primary</span></h1>
                <div className="grid grid-cols-5 gap-2">
                 <div className="text-center">
                    <label className="text-xs text-white block mb-1 capitalize">Speed</label>
@@ -207,11 +205,10 @@ const InheritanceCalPage = () => {
                </div>                          
             </div>      
 
-            <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-[#1162a5]/40 rounded-2xl p-8 backdrop-blur-xl shadow-2xl mb-3">
+            <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-[#1162a5]/40 rounded-2xl p-3 backdrop-blur-xl shadow-2xl mb-3">
               <h1 className="text-white text-3xl font-bold tracking-wide border-b border-white/10 pb-4 mb-6">
                 Grandarent 1 Sparks
               </h1>
-              <p className="text-white mb-6">1 = 5 points, 2 = 12 points, 3 = 21 points</p>
                <div className="grid grid-cols-5 gap-2">
                 <div className="text-center">
                    <label className="text-xs text-white block mb-1 capitalize">Speed</label>
@@ -280,11 +277,10 @@ const InheritanceCalPage = () => {
                </div>                            
             </div>  
 
-            <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-[#1393fb]/40 rounded-2xl p-8 backdrop-blur-xl shadow-2xl mb-3">
+            <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-[#1393fb]/40 rounded-2xl p-3 backdrop-blur-xl shadow-2xl mb-3">
               <h1 className="text-white text-3xl font-bold tracking-wide border-b border-white/10 pb-4 mb-6">
                 Grandarent 2 Sparks
               </h1>
-              <p className="text-white mb-6">1 = 5 points, 2 = 12 points, 3 = 21 points</p>
                <div className="grid grid-cols-5 gap-2">
                 <div className="text-center">
                    <label className="text-xs text-white block mb-1 capitalize">Speed</label>
@@ -353,11 +349,9 @@ const InheritanceCalPage = () => {
                </div>                        
             </div>  
             
-            <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-[#e316c8]/90 rounded-2xl p-8 backdrop-blur-xl shadow-2xl mb-3">
+            <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-[#e316c8]/90 rounded-2xl p-3 backdrop-blur-xl shadow-2xl mb-3">
               <h1 className="text-white text-3xl font-bold tracking-wide border-b border-white/10 pb-4 mb-6">
-                Parent 2 Sparks
-              </h1>
-              <p className="text-white mb-6">1 = 5 points, 2 = 12 points, 3 = 21 points</p>
+                Parent 2 Sparks <span className="text-xs ml-60 border-2 border-[#e316c8]/90 rounded-full bg-[#e316c8]/60 pl-2 pr-2">Primary</span></h1>
                <div className="grid grid-cols-5 gap-2">
                 <div className="text-center">
                    <label className="text-xs text-white block mb-1 capitalize">Speed</label>
@@ -426,11 +420,10 @@ const InheritanceCalPage = () => {
                </div>                           
             </div>      
 
-            <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-[#e316c8]/40 rounded-2xl p-8 backdrop-blur-xl shadow-2xl mb-3">
+            <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-[#e316c8]/40 rounded-2xl p-3 backdrop-blur-xl shadow-2xl mb-3">
               <h1 className="text-white text-3xl font-bold tracking-wide border-b border-white/10 pb-4 mb-6">
                 Grandarent 3 Sparks
               </h1>
-              <p className="text-white mb-6">1 = 5 points, 2 = 12 points, 3 = 21 points</p>
                <div className="grid grid-cols-5 gap-2">
                 <div className="text-center">
                    <label className="text-xs text-white block mb-1 capitalize">Speed</label>
@@ -499,11 +492,10 @@ const InheritanceCalPage = () => {
                </div>             
             </div>  
 
-            <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-[#e316c8]/40 rounded-2xl p-8 backdrop-blur-xl shadow-2xl mb-3">
+            <div className="relative z-10 w-full max-w-3xl bg-white/5 border border-[#e316c8]/40 rounded-2xl p-3 backdrop-blur-xl shadow-2xl mb-3">
               <h1 className="text-white text-3xl font-bold tracking-wide border-b border-white/10 pb-4 mb-6">
                 Grandarent 4 Sparks
               </h1>
-              <p className="text-white mb-6">1 = 5 points, 2 = 12 points, 3 = 21 points</p>
                <div className="grid grid-cols-5 gap-2">
                 <div className="text-center">
                    <label className="text-xs text-white block mb-1 capitalize">Speed</label>
