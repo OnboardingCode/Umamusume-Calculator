@@ -2,7 +2,8 @@ import { useNavigate } from 'react-router';
 import characterData from '../data/character_data.json';
 
 interface Character {
-  id: number;
+  gameId: number;
+  category: string;
   nameEN: string;
   nameJP: string;
   images: {
@@ -28,7 +29,9 @@ interface Character {
     'growth-wit': string;
   };
   Details: {
-    intro: string
+    intro: string;
+    description: string;
+    voiceActor: string;
     birthday: string;
     height: string;
     measurement1: string;
@@ -53,8 +56,9 @@ const CharactersInfo = () => {
 
   // Obtener el personaje directamente desde el JSON local
   const urlParams = new URLSearchParams(window.location.search);
-  const umaId = urlParams.get('id') || '1001';
-  const character = (characterData as Character[]).find(c => c.id === Number(umaId)) ?? null;
+  const umaId = urlParams.get('gameId') || '1001';
+  const character = (characterData as Character[]).find(c => c.gameId === Number(umaId)) ?? null;
+  console.log(umaId);
 
   // Función para volver a la página de selección de personajes
   const goBack = () => {
@@ -63,111 +67,66 @@ const CharactersInfo = () => {
 
   return (
     
-    <div className=" min-h-screen bg-slate-50 w-full p-8">
+    <div className="relative min-h-screen w-full bg-[#000000] overflow-hidden justify-center">
       <div className="max-w-4xl mx-auto">
-        {/* Botón para volver */}
-        <button
-          onClick={goBack}
-          className="mb-6 mt-9 bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded transition-colors ">
-          Back to characters</button>
+        <div className="absolute top-[50%] left-[30%] -translate-x-1/2 -translate-y-1/2 w-300 h-225 bg-[#1393fb] rounded-full filter blur-[260px] opacity-20"></div>
+        <div className="absolute top-[50%] left-[70%] -translate-x-1/2 -translate-y-1/2 w-300 h-225 bg-[#e316c8] rounded-full filter blur-[260px] opacity-15"></div>
+        
+         <div className="items-center mx-auto max-w-7xl px-4 py-2 sm:px-6 lg:px-1 mt-20 pb-25 pt-4">
+           <div className="bg-white/5 border border-white/10 rounded-2xl p-4 backdrop-blur-xl shadow-2xl">
+            <div className="text-center">
+              <h1 className="font-nunito text-4xl font-semibold mb-6 text-white">{character?.nameEN}</h1>
+              <p className="text-xl mb-2 font-semibold text-gray-500">{character?.nameJP}</p>
+            </div>
+           </div>
+         </div>
+          {/*Col 1 main IMG and Stats
+            Col 2 Character Data*/}
+         <div className="grid grid-cols-2 grid-rows-1">
+          <div className="col-start-1">
+            <div className="relative w-full min-w-150 right-100 bg-white/5 border border-[#1393fb]/90 rounded-2xl p-6 min-h-200 backdrop-blur-xl shadow-2xl mb-3 ">
+              <div>
+                <h1 className=" text-center font-nunito text-4xl font-semibold mb-6 text-white">Charapter Images</h1>
+                <img src={character?.images.main.replace('public/', '/')} className="relative max-w-75 rounded-lg  left-33" alt="Uma Character"/></div>
+                <div className="h-1 rounded-2xl bg-blue-500 w-full my-6"></div>
+                 <h1 className=" text-center font-nunito text-4xl font-semibold mb-6 text-white">Profile</h1>
+                <div>
+                  <div className="flex gap-13 flex-wrap">
+                    <p className='font-semibold text-white'>"{character?.Details.intro}"</p>
 
-        {/* Información del personaje */}
-        <div className="bg-white rounded-lg shadow-lg p-8">
-          <h1 className="text-4xl font-bold text-gray-800 mb-6">
-            Uma Profile
-          </h1>
-          
-          <h1 className="text-2xl font-semibold mb-4">General Information:</h1>
-          <h2 className="text-xl mb-2 text-black-600">{character?.nameJP}</h2>
-          <h2 className="text-xl mb-2 text-black-600">{character?.nameEN}</h2>
-          <h2 className="text-xl mb-4 text-black-600">ID: {character?.id}</h2>
-          <h2 className="text-xl mb-4 text-black-600">Details:</h2> 
-          <h2 className="text-xl mb-4 text-black-600">Birthday: {character?.Details.birthday}</h2>
 
-          <img
-            src={character?.images.main.replace('public/', '/')}
-            className="max-w-xs rounded-lg shadow-md"
-            alt="Uma Character"
-          />
 
-          {/* Stats */}
-          <div className="mt-8">
-            <h2 className="text-2xl font-semibold mb-4">Stats:</h2>
-            <div className="flex gap-8 flex-wrap">
-              <div><span className="font-semibold">Speed:</span> {character?.stats.speed}</div>
-              <div><span className="font-semibold">Stamina:</span> {character?.stats.stamina}</div>
-              <div><span className="font-semibold">Power:</span> {character?.stats.power}</div>
-              <div><span className="font-semibold">Guts:</span> {character?.stats.guts}</div>
-              <div><span className="font-semibold">Wit:</span> {character?.stats.wit}</div>
+                  </div>
+                </div>
+
             </div>
           </div>
 
-          {/* Track */}
-          <div className="mt-8">
-            <h2 className="text-2xl font-semibold mb-4">Track:</h2>
-            <div className="flex gap-8 flex-wrap">
-              <div><span className="font-semibold">Turf:</span> {character?.Track.Turf}</div>
-              <div><span className="font-semibold">Dirt:</span> {character?.Track.Dirt}</div>
-            </div>
-          </div>
 
-          {/* Distance */}
-          <div className="mt-8">
-            <h2 className="text-2xl font-semibold mb-4">Distance:</h2>
-            <div className="flex gap-8 flex-wrap">
-              <div><span className="font-semibold">Sprint:</span> {character?.Distance.sprint}</div>
-              <div><span className="font-semibold">Mile:</span> {character?.Distance.mile}</div>
-              <div><span className="font-semibold">Medium:</span> {character?.Distance.medium}</div>
-              <div><span className="font-semibold">Long:</span> {character?.Distance.long}</div>
-            </div>
-          </div>
 
-          {/* Style */}
-          <div className="mt-8">
-            <h2 className="text-2xl font-semibold mb-4">Style:</h2>
-            <div className="flex gap-8 flex-wrap">
-              <div><span className="font-semibold">Front:</span> {character?.Style.front}</div>
-              <div><span className="font-semibold">Pace:</span> {character?.Style.pace}</div>
-              <div><span className="font-semibold">Late:</span> {character?.Style.late}</div>
-              <div><span className="font-semibold">End:</span> {character?.Style.end}</div>
-            </div>
-          </div>
 
-          {/* Growth Rate */}
-          <div className="mt-8">
-            <h2 className="text-2xl font-semibold mb-4">Growth Rate:</h2>
-            <div className="flex gap-8 flex-wrap">
-              <div><span className="font-semibold">Speed:</span> {character?.['Growth Rate']['growth-speed']}</div>
-              <div><span className="font-semibold">Stamina:</span> {character?.['Growth Rate']['growth-stamina']}</div>
-              <div><span className="font-semibold">Power:</span> {character?.['Growth Rate']['growth-power']}</div>
-              <div><span className="font-semibold">Guts:</span> {character?.['Growth Rate']['growth-guts']}</div>
-              <div><span className="font-semibold">Wit:</span> {character?.['Growth Rate']['growth-wit']}</div>
-            </div>
-          </div>
+          <div className="col-start-2">
+            <div className="relative w-full min-w-250 right-45 bg-white/5 border border-[#1393fb]/90 rounded-2xl p-6 min-h-200 backdrop-blur-xl shadow-2xl mb-3 ">
+            <h1 className=" text-center font-nunito text-4xl font-semibold mb-6 text-white">Stats</h1>
+                <div>
+                  <div className="flex gap-13 flex-wrap">
+                    <p className='font-semibold text-xl text-white'>Speed: {character?.stats.speed}</p>
+                    <p className='font-semibold text-xl text-white'>Stamina: {character?.stats.stamina}</p>
+                    <p className='font-semibold text-xl text-white'>Power: {character?.stats.power}</p>
+                    <p className='font-semibold text-xl text-white'>Guts: {character?.stats.guts}</p>
+                    <p className='font-semibold text-xl text-white'>Wit: {character?.stats.wit}</p>
 
-          {/* Gallery */}
-          <div className="mt-8">
-            <h2 className="text-2xl font-semibold mb-4">Galery:</h2>
-            <div className="flex gap-4 flex-wrap">
-              <img
-                src={character?.images.banner.replace('public/', '/')}
-                className="rounded-lg shadow-md"
-                width="150"
-                height="150"
-                loading="lazy"
-                style={{ imageRendering: "crisp-edges" }}
-              />
-              <img
-                src={character?.images.racewear.replace('public/', '/')}
-                className="rounded-lg shadow-md"
-                width="150"
-                height="150"
-                loading="lazy"
-                style={{ imageRendering: "crisp-edges" }}
-              />
+                  </div>
+                </div>
             </div>
+            
           </div>
-        </div>
+         </div>
+        
+       
+
+
+
       </div>
     </div>
   );

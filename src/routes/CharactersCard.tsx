@@ -47,7 +47,7 @@ const CharactersCard = () => {
           >
             <img 
               src={cardImages.find(card => card.id === 1002)?.banner.replace('public/', '/')} 
-              alt="Special Week" 
+              alt="Silent Suzuka" 
               className='absolute inset-0 w-full h-full object-cover border-4 border-[#29BD70] rounded-lg bg-white'
             />
             <span className='border-2 border-[#EE6DCB] bg-white rounded-lg  absolute bottom-2 left-2 right-2 text-black font-bold text-m text-center'>Silence Suzuka</span>

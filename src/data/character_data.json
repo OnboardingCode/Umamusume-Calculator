@@ -1,6 +1,7 @@
 [
   {
-    "id": 1001,
+    "gameId": 1001,
+    "category": "Umamusume",
     "nameEN": "Special Week",
     "nameJP": " スペシャルウィーク",
     "images": {
@@ -41,6 +42,69 @@
     "Details": {
       "intro": "My name is Special Week! My dream is to be the best Umamusume in Japan! I'm gonna pull my own weight to make my moms proud!",
       "description": "Gonna do 'er best! A naive country girl beelining to her dream.",
+      "voice-actor": "Azumi Waki",
+      "birthday": "May 2",
+      "height": "158cm",
+      "measurement1": "B81",
+      "measurement2": "W56",
+      "measurement3": "H81",
+      "weight": "Slight decrease (Nervous before races)",
+      "grade": "Middle School",
+      "residence": "Ritto Dorm",
+      "likes": "Giving in-depth food critiques",
+      "dislikes": "Touch-and-go ticket gates",
+      "earsFact": "They pick up on any sound of cooking.",
+      "tailFact": "She's not very good at playing poker; her tail calls her bluff.",
+      "shoeSizeL": "23.5cm",
+      "shoeSizeR": "23.0cm",
+      "familyFact": "Her eye color came from her birth mother."
+    }
+  },
+
+  {
+    "gameId": 1002,
+    "category": "Umamusume",
+    "nameEN": "Silence Suzuka",
+    "nameJP": " スペシャルウィーク",
+    "images": {
+      "banner": "public/outfits/card-1001.png",
+      "main": "public/main/main-1001.png",
+      "racewear": "public/racewear/racewear-1001.png"
+    },
+    "stats": {
+      "speed": 83,
+      "stamina": 88,
+      "power": 98,
+      "guts": 90,
+      "wit": 91
+    },
+    "Track": {
+      "Turf": "A",
+      "Dirt": "G"
+    },
+    "Distance": {
+      "sprint": "F",
+      "mile": "C",
+      "medium": "A",
+      "long": "A"
+    },
+    "Style": {
+      "front": "G",
+      "pace": "A",
+      "late": "A",
+      "end": "C"
+    },
+    "Growth Rate": {
+      "growth-speed": "-",
+      "growth-stamina": "20%",
+      "growth-power": "-",
+      "growth-guts": "-",
+      "growth-wit": "10%"
+    },
+    "Details": {
+      "intro": "My name is Special Week! My dream is to be the best Umamusume in Japan! I'm gonna pull my own weight to make my moms proud!",
+      "description": "Gonna do 'er best! A naive country girl beelining to her dream.",
+      "voiceActor": "Azumi Waki",
       "birthday": "May 2",
       "height": "158cm",
       "measurement1": "B81",
