@@ -84,11 +84,11 @@ const CharactersInfo = () => {
             Col 2 Character Data*/}
          <div className="grid grid-cols-2 grid-rows-1">
           <div className="col-start-1">
-            <div className="relative w-full min-w-150 right-100 bg-white/5 border border-[#1393fb]/90 rounded-2xl p-6 min-h-200 backdrop-blur-xl shadow-2xl mb-3 ">
+            <div className="relative w-full min-w-150 right-100 bg-white/5 border border-[#69c10c]/90 rounded-2xl p-6 min-h-200 backdrop-blur-xl shadow-2xl mb-3 ">
               <div>
                 <h1 className=" text-center font-nunito text-4xl font-semibold mb-6 text-white">Charapter Images</h1>
                 <img src={character?.images.main.replace('public/', '/')} className="relative max-w-75 rounded-lg  left-33" alt="Uma Character"/></div>
-                <div className="h-1 rounded-2xl bg-blue-500 w-full my-6"></div>
+                <div className="h-1 rounded-2xl bg-[#69c10c] w-full my-6"></div>
                  <h1 className=" text-center font-nunito text-4xl font-semibold mb-6 text-white">Profile</h1>
                 <div>
                   <div className="flex gap-13 flex-wrap">
@@ -106,18 +106,22 @@ const CharactersInfo = () => {
 
 
           <div className="col-start-2">
-            <div className="relative w-full min-w-250 right-45 bg-white/5 border border-[#1393fb]/90 rounded-2xl p-6 min-h-200 backdrop-blur-xl shadow-2xl mb-3 ">
-            <h1 className=" text-center font-nunito text-4xl font-semibold mb-6 text-white">Stats</h1>
-                <div>
-                  <div className="flex gap-13 flex-wrap">
-                    <p className='font-semibold text-xl text-white'>Speed: {character?.stats.speed}</p>
-                    <p className='font-semibold text-xl text-white'>Stamina: {character?.stats.stamina}</p>
-                    <p className='font-semibold text-xl text-white'>Power: {character?.stats.power}</p>
-                    <p className='font-semibold text-xl text-white'>Guts: {character?.stats.guts}</p>
-                    <p className='font-semibold text-xl text-white'>Wit: {character?.stats.wit}</p>
-
-                  </div>
+            <div className="relative w-full min-w-250 right-45 bg-white/5 border border-[#69c10c]/90 rounded-2xl p-6 min-h-200 backdrop-blur-xl shadow-2xl mb-3 ">
+              <div className="bg-white/5 border border-white/10 rounded-2xl p-7 backdrop-blur-xl shadow-2xl">
+                <img src={character?.images.banner.replace('public/', '/')} className="relative  max-w-30 rounded-lg  left-215 top-20  bg-white/5 border border-white/10 -m-25 " alt="Uma Character"/>
+                <div id='textContainer' className='relative top-5'>
+                    <p className='font-semibold text-xl text-white'>Charapter Details</p>
+                    <p className='font-semibold text-xl text-white'>Game ID: {character?.gameId}</p>
+                    <p className='font-semibold text-xl text-white'>Web ID: {character?.gameId}</p>
+                    <p className='font-semibold text-xl text-white'>Power: {character?.category}</p>
+                    <p className='font-semibold text-xl text-white'>Oficial Page: Umamusume.com </p>
+                    <p className='font-semibold text-xl text-white'>Voice Actor: {character?.Details.voiceActor}</p>
                 </div>
+                  
+                
+              
+              </div>
+         
             </div>
             
           </div>
